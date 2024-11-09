@@ -1,4 +1,14 @@
 /* General Styles */
+
+header {
+    color: white; /* Original text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+header:hover {
+    background-color: #141514; /* Background color on hover */
+    color: #f1f1f1; /* Text color on hover */
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
