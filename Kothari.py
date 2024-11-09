@@ -14,6 +14,7 @@ def generate_pdf():
     )
     
     # Save PDF
-    pdf.output("Grant_Utilization_Proposal.pdf")
+    pdf.output("C:\Users\kumar\OneDrive\Desktop\Kothari FelloShip Cloned\Kothari-Fellowship\Grant_Utilization_Proposal.pdf")
 
+pdf_path = r"C:\Users\kumar\OneDrive\Desktop\Kothari-Fellowship\Grant_Utilization_Proposal.pdf"
 
