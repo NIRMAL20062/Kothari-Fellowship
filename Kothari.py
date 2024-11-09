@@ -16,5 +16,4 @@ def generate_pdf():
     # Save PDF
     pdf.output("Grant_Utilization_Proposal.pdf")
 
-# Uncomment the line below if you want to execute this script independently
-# generate_pdf()
+
