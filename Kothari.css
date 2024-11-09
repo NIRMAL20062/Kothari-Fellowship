@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -56,3 +57,63 @@ section {
         justify-content: space-between;
     }
 }
+=======
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #578b98;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.focus-item {
+    background-color: #e9ecef;
+    padding: 1em;
+    border-radius: 8px;
+    margin: 1em 0;
+}
+
+/* Button Style */
+#download button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#download button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .focus-item {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+>>>>>>> e4ce3669f3c7a7e766baea0e9889746d1afa2f2d
